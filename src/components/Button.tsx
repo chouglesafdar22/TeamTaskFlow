@@ -10,13 +10,15 @@ interface LinkButtonProps {
 
 export function PrimaryButton({ href, text, className = "" }: LinkButtonProps) {
     return (
-        <motion.button
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-            transition={{ type: "spring", duration: 0.3, ease: "linear" }}
-            className={`${className} text-center bg-white text-black cursor-pointer poppins-light items-center xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm w-auto h-auto py-2 px-2.5 rounded-md hover:rounded-lg transition-all duration-500 ease-linear`}
-        >
-            <Link href={href}>{text}</Link>
-        </motion.button>
+        <Link href={href}>
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ type: "spring", duration: 0.3, ease: "linear" }}
+                className={`${className} text-center cursor-pointer poppins-light items-center xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm w-auto h-auto py-1.5 px-3.5 rounded-lg transition-all duration-500 ease-linear`}
+            >
+                {text}
+            </motion.button>
+        </Link>
     )
 }
