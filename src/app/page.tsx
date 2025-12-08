@@ -16,9 +16,9 @@ export default function Home() {
       </section>
 
       <section className="features xl:px-6 lg:px-5 md:px-4 sm:px-3 px-1.5">
-        <div className="flex flex-col sm:gap-7 gap-4 xl:justify-center py-2.5 md:px-5 px-2.5">
+        <div className="flex flex-col sm:gap-8 gap-5 xl:justify-center py-2.5 md:px-5 px-2.5">
           <h3 className="text-white text-center poppins-medium xl:text-3xl lg:text-2xl md:text-xl base:text-lg text-sm">Features</h3>
-          <div className="flex sm:flex-row flex-col justify-center items-center gap-3.5">
+          <div className="flex sm:flex-row flex-col justify-center items-center gap-5">
             <FeatureCard title={"Smart Responses Powered"} text={"Get fast, accurate, and deeply contextual answers for anything you ask. GemAi uses the Gemini API to deliver intelligent results instantly."} />
             <FeatureCard title={"Write & Create Effortlessly"} text={"From emails and blogs to ideas and summaries — GemAi helps you write and create high-quality content in seconds."} />
             <FeatureCard title={"Code, Debug & Learn Faster"} text={"Whether you're a beginner or an experienced developer, GemAi assists with coding, debugging, explanations, and problem-solving with clarity."} />
