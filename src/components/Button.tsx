@@ -15,7 +15,7 @@ export function PrimaryButton({ href, text, className = "" }: LinkButtonProps) {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", duration: 0.3, ease: "linear" }}
-                className={`${className} text-center cursor-pointer poppins-light items-center xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm w-auto h-auto py-1.5 px-3.5 rounded-lg transition-all duration-500 ease-linear`}
+                className={`${className} text-center cursor-pointer poppins-light items-center xl:text-lg lg:text-base md:text-sm sm:text-xs text-[10px] w-auto h-auto py-1.5 px-3.5 rounded-lg transition-all duration-300 ease-linear`}
             >
                 {text}
             </motion.button>

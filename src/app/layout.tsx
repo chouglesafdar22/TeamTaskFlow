@@ -28,7 +28,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth xl:px-2.5 lg:px-2 md:px-1.5 sm:px-1 px-0.5 xl:py-2.5 lg:py-2 md:py-1.5 sm:py-1 py-0.5 justify-center items-center`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth justify-center items-center`}
       >
         {children}
       </body>
