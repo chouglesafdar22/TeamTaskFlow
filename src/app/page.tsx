@@ -41,8 +41,8 @@ export default function Home() {
 
       <section className="features xl:pt-5 lg:pt-4 md:pt-3 sm:pt-2 pt-1.5 xl:pb-20 lg:pb-16 md:pb-14 sm:pb-12 pb-11 xl:px-8 lg:px-7 md:px-5 sm:px-4 px-2">
         <div className="max-w-6xl mx-auto flex flex-col sm:gap-10 gap-7 xl:justify-center py-2.5 md:px-5 px-2.5">
-          <h3 className="text-[#8B1E3F] text-center poppins-medium xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base">Features</h3>
-          <div className="grid sm:grid-cols-2 grid-cols-1 place-items-center gap-8">
+          <h3 className="text-[#8B1E3F] text-center poppins-medium xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl">Features</h3>
+          <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center gap-8">
             <FeatureCard title={"Project & Task Management"} text={"Create projects, add tasks, and assign work to your team with clear ownership."} />
             <FeatureCard title={"Kanban Workflow"} text={"Visualize work using Todo, In Progress, and Done boards to track progress easily."} />
             <FeatureCard title={"Team Roles & Permissions"} text={"Owners, members, and viewers each get the right level of access and control."} />

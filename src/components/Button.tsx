@@ -17,7 +17,7 @@ export function PrimaryButton({ href, text, className = "" }: LinkButtonProps) {
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 transition={{ type: "spring", duration: 0.3, ease: "linear" }}
-                className={`${className} text-center cursor-pointer poppins-light items-center xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm w-auto h-auto py-1.5 px-3.5 rounded-2xl transition-all duration-500 ease-linear`}
+                className={`${className} text-center cursor-pointer poppins-light items-center xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base w-auto h-auto py-1.5 px-3.5 rounded-2xl transition-all duration-500 ease-linear`}
             >
                 {text}
             </motion.button>
@@ -32,7 +32,7 @@ export function ArrowButton({ href, text, className = "", icon }: LinkButtonProp
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 transition={{ type: "spring", duration: 0.3, ease: "linear" }}
-                className={`${className} flex flex-row gap-1 text-center cursor-pointer poppins-light items-center xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm w-auto h-auto py-1.5 px-3.5 rounded-2xl transition-all duration-500 ease-linear`}
+                className={`${className} flex flex-row gap-1 text-center cursor-pointer poppins-light items-center xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base w-auto h-auto py-1.5 px-3.5 rounded-2xl transition-all duration-500 ease-linear`}
             >
                 {text}
                 <span className="">{icon}</span>
