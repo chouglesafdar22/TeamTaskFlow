@@ -44,7 +44,7 @@ export function ArrowButton({ href, text, className = "", icon }: LinkButtonProp
 
 export function UpButton() {
     return (
-        <a href="#home" className="flex fixed z-40 top-[90%] right-8 cursor-pointer rounded-full bg-white/30 backdrop-blur-xs xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-[#8B1E3F] poppins-regular">
+        <a href="#home" className="flex fixed z-40 top-[90%] right-8 cursor-pointer rounded-full bg-white/30 backdrop-blur-xs xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-[#8B1E3F] poppins-regular">
             <IoMdArrowDropupCircle />
         </a>
     )

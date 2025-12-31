@@ -8,7 +8,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="flex flex-col bottom-0 w-full relative bg-[#F3F4F6] pt-20 pb-10 px-6 gap-8">
+        <footer className="flex flex-col bottom-0 w-full relative bg-[#F3F4F6] pt-20 pb-10 px-6 gap-5">
             <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
                 <div className="flex flex-col justify-start items-start gap-1">
                     <div className="flex justify-center items-center text-center gap-1">
