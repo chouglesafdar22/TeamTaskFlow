@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <UpButton />
+      {/* <UpButton /> */}
 
       <ScrollWrapper direction="fade" ease="linear" delay={0.2}>
         <section id="home" className="header xl:pt-48 lg:pt-44 md:pt-40 sm:pt-36 pt-32 xl:pb-20 lg:pb-16 md:pb-14 sm:pb-12 pb-11 xl:px-8 lg:px-7 md:px-5 sm:px-4 px-2">
