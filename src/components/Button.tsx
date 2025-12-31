@@ -8,6 +8,7 @@ interface LinkButtonProps {
     text: string;
     className?: string;
     icon?: React.ReactNode;
+    onClick?: () => void;
 };
 
 export function PrimaryButton({ href, text, className = "" }: LinkButtonProps) {

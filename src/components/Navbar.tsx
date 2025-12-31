@@ -17,7 +17,7 @@ export function Navbar() {
                             height={50}
                             loading='eager'
                             unoptimized
-                            className="object-contain rounded-full"
+                            className="object-cover rounded-full"
                         />
                         <h1 className="lg:text-3xl md:text-2xl sm:text-xl text-lg text-[#8B1E3F] poppins-bold">
                             TeamTaskFlow
