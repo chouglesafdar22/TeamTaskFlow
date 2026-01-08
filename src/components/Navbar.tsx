@@ -19,7 +19,7 @@ export function Navbar() {
                             unoptimized
                             className="object-cover rounded-full"
                         />
-                        <h1 className="lg:text-3xl md:text-2xl sm:text-xl text-lg text-[#8B1E3F] poppins-bold">
+                        <h1 className="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-[#8B1E3F] poppins-bold">
                             TeamTaskFlow
                         </h1>
                     </Link>
